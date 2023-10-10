@@ -14,28 +14,32 @@
                     <h2>Login</h2>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <input type="email" placeholder="" required>
-                        <label for="">Email</label>
+                        <input type="email" id="email" placeholder="" required>
+                        <label for="email">Email</label>
                     </div>
 
                     <div class="inputbox">
                         <ion-icon name="key-outline"></ion-icon>
-                        <input type="password" placeholder="" required>
-                        <label for="">Password</label>
+                        <input type="password" id="password" placeholder="" required>
+                        <label for="password">Password</label>
                     </div>
 
                     <div class="remember-me">
-                        <label for=""><input type="checkbox">Remember Me</label>
-                        <a href="#" class="forget">Forgot Password?</a>
+                        <label for="rememberme"><input type="checkbox" id="rememberme">Remember Me</label>
                     </div>
-
+                    
+                    <a href="#" class="forget">Forgot Password?</a>
 
                     <button>Log in</button>
 
                     <div class="register">
                         <p>Don't have an account?</p>
-                        <a href="#">Register</a>
                     </div>
+
+                    <div class="register-button">
+                        <a href="#" >Register</a>
+                    </div>
+                    
 
                 </form>
             </div>
