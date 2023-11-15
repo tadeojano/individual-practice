@@ -1,2 +1,2 @@
 # individual-practice
-Proyectos chicos personales
+small personal practice projects
